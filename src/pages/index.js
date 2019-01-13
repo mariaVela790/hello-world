@@ -1,9 +1,10 @@
 import React from "react"
+import Header from "../components/header"
 
 //JSX: Syntax extension to JS
 export default () => (
     <div style={{color: `purple`}}>
-        <h1>Hello Gatsby and World!</h1>
+        <Header headerText="Home Page"/>
         <p>What a world.</p>
         <img src="https://source.unsplash.com/random/400x200" alt=""/>
     </div>
